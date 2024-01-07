@@ -16,7 +16,11 @@ public class Calculator {
         return x/y;
     }
 
+    //Restul impartirii a doua numere
 
+    public int rest(int x, int y){
+        return (x%y);
+    }
 
 
 }

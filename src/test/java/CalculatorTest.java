@@ -42,4 +42,10 @@ public class CalculatorTest {
         Assertions.assertEquals(result,3);
     }
 
+    @Test
+    public void restTest(){
+        int result = calculator.rest(6,4);
+        Assertions.assertEquals(result,2);
+    }
+
 }
